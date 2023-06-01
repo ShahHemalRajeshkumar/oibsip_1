@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ysabeau:wght@300&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background:linear-gradient(45deg,#0a0a0a,#3a4452);
+ }
+ .container {
+   border-radius: 12px;
+   max-width: 300px;
+   padding: 10px 20px 20px;
+   position: relative;
+   width: 100%;
+   background: transparent;
+   box-shadow: 0 3px 15px rgba(113, 115, 119, 0.5);
+ }
+ .display {
+   height: 80px;
+   width: 100%;
+   outline: none;
+   border: none;
+   text-align: right;
+   margin-bottom: 10px;
+   font-size: 25px;
+   color: #000e1a;
+   pointer-events: none;
+ }
+ .buttons {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: repeat(4, 1fr);
+ }
+ .buttons button {
+   padding: 10px;
+   border-radius: 6px;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+   background: transparent;
+   color: #ffffff;
+   box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1);
+ }
+ .buttons button:active {
+   transform: scale(0.99);
+ }
+ .operator{
+   color:white;
+ }
+
